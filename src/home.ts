@@ -163,7 +163,7 @@ function apagarLembrete(data: string) {
   );
 
   let confirma: boolean = confirm(
-    `Você tem certeza que deseja excluir o lembrete de data ${data}?`
+    `Você tem certeza que deseja excluir o lembrete da data ${data}?`
   );
 
   if (confirma) {
@@ -194,7 +194,7 @@ function buscarLembretesNoStorage(): Lembrete[] {
 }
 
 function editarLembrete(data: string) {
-  alert(`Editar recado ${data}?`);
+  alert(`Editar lembrete da ${data}?`);
 }
 
 function sair() {
